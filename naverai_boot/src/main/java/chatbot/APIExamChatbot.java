@@ -74,8 +74,8 @@ public class APIExamChatbot {
 
 		return chatbotMessage;
 	}
-	
-	// json 형태로 요청값 전달
+
+	// 질문 시크릿키 암호화
 	public static String makeSignature(String message, String secretKey) {
 
 		String encodeBase64String = "";
@@ -100,7 +100,7 @@ public class APIExamChatbot {
 
 	}
 	
-	// 질문 시크릿키 암호화
+	// json 형태로 요청값 전달
 	public static String getReqMessage(String voiceMessage) {
 
 		String requestBody = "";

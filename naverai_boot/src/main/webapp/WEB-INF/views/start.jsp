@@ -23,9 +23,13 @@ $(document).ready(function() {
 	<li><a href="/ttsinput">Text to Speech</a></li>
 	<li><a href="/myinput">TTS 챗봇 예제</a></li>
 	<li><a href="/ocrinput">글자 인식(OCR)</a></li>
-	<li><a href="/chatbotrequest">챗봇 서비스(ajax X)</a></li>
-	<li><a href="/chatbotajaxstart">챗봇 서비스(ajax O, 기본 답변만)</a></li>
-	<li><a href="/chatbotajax">챗봇 서비스(ajax O, 모든 답변)</a></li>
+	<li> 챗봇 서비스
+		<ul>
+			<li><a href="/chatbotrequest">ajax X</a></li>
+			<li><a href="/chatbotajaxstart">ajax O, 기본 답변만</a></li>
+			<li><a href="/chatbotajax">ajax O, 모든 답변</a></li>
+		</ul>
+	</li>
 </ol>
 
 </body>

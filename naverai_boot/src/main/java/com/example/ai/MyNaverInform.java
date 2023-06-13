@@ -4,7 +4,7 @@ package com.example.ai;
 public class MyNaverInform {
 	public static final String clientID = "xco47vj694";
 	public static final String secret = "KatH88ihccLZJdp9OAhXaFPuyhL5SE21P2OT8rJl";
-	public static final String path = "C:\\Users\\euncu\\Desktop\\ai_images/";
+	public static final String path = "C:\\Users\\euncu\\Desktop\\ai_images\\";
 	
 	//voice시 사용
 	public static final String voice_clientID = "5f7s1aix2a";
